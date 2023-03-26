@@ -1,0 +1,21 @@
+apply plugin: "java"
+apply plugin: "application"
+
+sourceSets.main.java.srcDirs = ['src']
+mainClassName = "main.Main"
+
+repositories {
+	mavenCentral()
+}
+
+dependencies {
+	implementation 'com.google.code.gson:gson:2.10.1'
+}
+
+jar {
+	manifest.attributes("Main-Class": mainClassName)
+}
+
+wrapper {
+	gradleVersion = "8.0.2"
+}
