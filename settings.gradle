@@ -9,4 +9,6 @@ include 'EquipmentType'
 include 'Equipment'
 include 'Cookers'
 include 'OperationTypes'
+include 'FoodAgent'
+include 'OperationAgent'
 

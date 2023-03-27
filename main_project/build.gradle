@@ -15,6 +15,15 @@ dependencies {
 	implementation 'com.google.code.gson:gson:2.10.1'
 	implementation project(':Visitor')
 	implementation project(':Menu')
+	implementation project(':Cookers')
+	implementation project(':Equipment')
+	implementation project(':EquipmentType')
+	implementation project(':FoodAgent')
+	implementation project(':OperationAgent')
+	implementation project(':OperationTypes')
+	implementation project(':Products')
+	implementation project(':ProductTypes')
+	implementation project(':tecknik_cards')
 }
 
 jar {
