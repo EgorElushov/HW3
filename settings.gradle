@@ -1,4 +1,12 @@
 rootProject.name = 'Gradle_Restaurant'
 
 include 'main_project', 'Visitor'
+include 'Menu'
+include 'tecknik_cards'
+include 'Products'
+include 'ProductTypes'
+include 'EquipmentType'
+include 'Equipment'
+include 'Cookers'
+include 'OperationTypes'
 
